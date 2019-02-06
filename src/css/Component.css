@@ -1,0 +1,132 @@
+.Navbar{
+    
+    background-color: rgb(116, 116, 116);
+    overflow: hidden;
+}
+.Linkbar{
+    color: white;
+    padding: 20px 27px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+  }
+  .Linkbar-bold{
+    color: white;
+    padding: 20px 27px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    font-weight:bold;
+  }
+  .Linkbar:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .Linkbar-bold:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .Topnav-right{
+      float: right;
+  }
+  .Panel-top{
+    background-color: rgb(201, 201, 201);
+    padding: 20px;
+    height:280px;
+    margin: 10px;
+  }
+  .Panel-profile{
+    background-color: rgb(117, 116, 116);
+    padding: 20px;
+    height:225px;
+    width: 225px;
+  }
+  .Panel-mid{
+    background-color: rgb(201, 201, 201);
+    padding: 20px;
+    height:350px;
+    margin: 30px;
+  }
+  .Panel-buttom{
+    background-color: rgb(201, 201, 201);
+    padding: 20px;
+    height:500px;
+    margin: 30px;
+  }
+  .Panel-small{
+    background-color: rgb(201, 201, 201);
+    padding: 20px;
+    height:250px;
+    margin: 40px;
+    width: 27%;
+    float: left;
+  }
+  .Panel-invisible{
+    background-color: rgb(224, 26, 26);
+    padding: 20px;
+    height:50px;
+    margin: 30px;
+  }
+  .Button-primary{
+      color: rgb(255, 250, 250);
+      background-color: dimgrey;
+      padding: 14px 28px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+  }
+  .Button-primary:hover{
+    background-color: rgb(143, 139, 139);
+    color: rgb(255, 255, 255);
+  }
+  .Text-heading{
+    margin: 10px;
+    font-size: 25px;
+  }
+  .Text-primary{
+    margin-left: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .Text-primary-2{
+    margin-left: 35px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .Text-primary-3{
+    margin: 100px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .Text-primary-date{
+    margin-left: 10px;
+    text-align: left;
+    color: dimgrey;
+  }
+  .TextLink{
+    margin: 15px;
+    font-weight: bold;
+    float: right;
+  }
+  .Topnav-right-link{
+    float: right;
+    margin: 15px;
+  }
+
+  .Topnav-profile{
+    float: left;
+  }
+  .flex-container {
+    display: flex;
+  }
+  .grid-container {
+    display: grid;
+    margin-left: 15px;
+  }
+  .dot {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(90, 86, 86);
+    border-radius: 50%;
+    display: inline-block;
+  }
